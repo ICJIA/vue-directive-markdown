@@ -73,6 +73,18 @@ To run without any extensions enabled and have a vanilla [markdown-it](https://g
 </div>
 ```
 
+## Build
+
+```
+# Build example
+
+npm run build
+
+# Build distribution
+
+npm run dist
+```
+
 ## View example
 
 ```
