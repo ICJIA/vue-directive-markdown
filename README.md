@@ -12,7 +12,7 @@ $ npm install vue-directive-markdown --save-dev
 
 Sample ```main.js```:
 
-```
+```bash
 import Vue from 'vue'
 import App from './App.vue'
 
