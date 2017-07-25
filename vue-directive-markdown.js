@@ -33,9 +33,9 @@ function activatePlugins (md, arg) {
       options.typographer = true
     }
 
-    if (modifiers.commonmark) {
-      options.commonmark = true
-    }
+    // if (modifiers.commonmark) {
+    //   options.commonmark = true
+    // }
 
     return options
   }
@@ -46,11 +46,13 @@ function activatePlugins (md, arg) {
 
       var modifiers = getModifiers(binding.modifiers)
 
-      if (modifiers.commonmark) {
-        var md = require('markdown-it')('commonmark')
-      } else {
-        var md = require('markdown-it')(modifiers)
-      }
+      // if (modifiers.commonmark) {
+      //   var md = require('markdown-it')('commonmark')
+      // } else {
+      //   var md = require('markdown-it')(modifiers)
+      // }
+
+      var md = require('markdown-it')(modifiers)
 
       if (binding.arg) {
         var arg = binding.arg

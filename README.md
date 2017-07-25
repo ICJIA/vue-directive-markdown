@@ -4,7 +4,7 @@
 
 ## Installation
 
-```
+```bash
 $ npm install vue-directive-markdown --save-dev
 ```
 
@@ -46,8 +46,6 @@ new Vue({
 - ```v-md.breaks```: Convert '\n' in paragraphs into html breaks. Default: ```false```
 
 - ```v-md.linkify```: Autoconvert URL-like text to links. Default: ```false```
-
-- ```v-md.commonmark```: Set into Commonmark mode.
 
 Set modifiers to turn on features. For example:
 
