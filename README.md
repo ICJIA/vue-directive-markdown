@@ -27,7 +27,7 @@ new Vue({
 
 ## Usage
 
-```
+```html
 <div v-md>
 # Your Markdown Text
 
@@ -51,7 +51,7 @@ new Vue({
 
 Set modifiers to turn on features. For example:
 
-```
+```html
 <div v-md.html.linkify>
   <b>This will display HTML</b><br>
   <a href="">And automatically display links</a>
@@ -67,7 +67,7 @@ The following extensions are enabled by default:
 
 To run without any extensions enabled and have a vanilla [markdown-it](https://github.com/markdown-it/markdown-it) parser, add the ```min```  argument:
 
-```
+```bash
 <div v-md:min>
  # Plain markdown-it
 </div>
@@ -75,7 +75,7 @@ To run without any extensions enabled and have a vanilla [markdown-it](https://g
 
 ## Build
 
-```
+```bash
 # Build example
 
 npm run build
@@ -87,7 +87,7 @@ npm run dist
 
 ## View example
 
-```
+```bash
 $ npm run server
 ```
 
