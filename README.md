@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/ICJIA/vue-directive-markdown.svg?branch=master)](https://travis-ci.org/ICJIA/vue-directive-markdown)
 
+[![npm version](https://badge.fury.io/js/vue-directive-markdown.svg)](https://badge.fury.io/js/vue-directive-markdown)
+
 # vue-directive-markdown
 
 > Simple Vue 2.0 directive to parse markdown using the [markdown-it](https://github.com/markdown-it/markdown-it) parser.
